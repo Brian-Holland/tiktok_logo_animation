@@ -9,6 +9,7 @@ body {
 
 .tiktok-logo {
 	position: absolute;
+	opacity: 0;
 	height: 200px;
 	width: 45px;
 	background: #69c9d0;
@@ -22,6 +23,7 @@ body {
 .tiktok-logo::before {
 	content: "";
 	position: absolute;
+	opacity: 0;
 	height: 100px;
 	width: 100px;
 	top: 103px;
@@ -39,6 +41,7 @@ body {
 .tiktok-logo::after {
 	content: "";
 	position: absolute;
+	opacity: 0;
 	width: 140px;
 	height: 140px;
 	top: -115px;
