@@ -15,6 +15,7 @@ body {
 	z-index: 1;
 	animation: mainFill 3s;
 	animation-fill-mode: forwards;
+	animation-delay: 2s;
 }
 
 /* bottom loop of J */
@@ -31,6 +32,7 @@ body {
 	transform: rotate(45deg);
 	animation: bottomFill 3s;
 	animation-fill-mode: forwards;
+	animation-delay: 2s;
 }
 
 /* Top curve of music note */
@@ -50,6 +52,7 @@ body {
 	z-index: -10;
 	animation: flagFill 3s;
 	animation-fill-mode: forwards;
+	animation-delay: 2s;
 }
 
 /* Add styling for second copy of logo, shifted and blended  */
