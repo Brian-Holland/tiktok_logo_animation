@@ -13,7 +13,7 @@ body {
 	width: 45px;
 	background: #69c9d0;
 	z-index: 1;
-	animation: mainFill 2s;
+	animation: mainFill 3s;
 	animation-fill-mode: forwards;
 }
 
@@ -29,7 +29,7 @@ body {
 	border: 45px solid #69c9d0;
 	border-top: 45px solid transparent;
 	transform: rotate(45deg);
-	animation: bottomFill 2s;
+	animation: bottomFill 3s;
 	animation-fill-mode: forwards;
 }
 
@@ -48,7 +48,7 @@ body {
 	border-radius: 100%;
 	transform: rotate(45deg);
 	z-index: -10;
-	animation: flagFill 2s;
+	animation: flagFill 3s;
 	animation-fill-mode: forwards;
 }
 
