@@ -1,1 +1,1 @@
-![Animated TikTok logo](tiktok-logo-gif.gif)
+![Animated TikTok logo](tiktok-logo.gif)
