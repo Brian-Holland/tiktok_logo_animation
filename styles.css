@@ -1,7 +1,8 @@
 body {
 	position: absolute;
+	background-color: #000;
+	margin: 0;
 	padding: 0;
-	background: #000;
 	top: 25%;
 	left: 50%;
 	transform: translate(-50%, -25%);
@@ -9,70 +10,72 @@ body {
 
 .tiktok-logo {
 	position: absolute;
-	opacity: 0;
+	top: 0;
+	left: 0;
+	opacity: 1;
 	height: 200px;
 	width: 45px;
-	background: #69c9d0;
+	background: #24f6f0;
 	z-index: 1;
-	animation: mainFill 3s;
+	/* animation: mainFill 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 2s;
+	animation-delay: 2s; */
 }
 
 /* bottom loop of J */
 .tiktok-logo::before {
 	content: "";
 	position: absolute;
-	opacity: 0;
+	opacity: 1;
 	height: 100px;
 	width: 100px;
 	top: 103px;
 	left: -145px;
 	border-radius: 50%;
-	border: 45px solid #69c9d0;
+	border: 45px solid #24f6f0;
 	border-top: 45px solid transparent;
 	transform: rotate(45deg);
-	animation: bottomFill 3s;
+	/* animation: bottomFill 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 2s;
+	animation-delay: 2s; */
 }
 
 /* Top curve of music note */
 .tiktok-logo::after {
 	content: "";
 	position: absolute;
-	opacity: 0;
+	opacity: 1;
 	width: 140px;
 	height: 140px;
 	top: -115px;
 	right: -185px;
-	border: 45px solid #69c9d0;
+	border: 45px solid #24f6f0;
 	border-right: 45px solid transparent;
 	border-top: 45px solid transparent;
 	border-left: 45px solid transparent;
 	border-radius: 100%;
 	transform: rotate(45deg);
 	z-index: -10;
-	animation: flagFill 3s;
+	/* animation: flagFill 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 2s;
+	animation-delay: 2s; */
 }
 
 /* Add styling for second copy of logo, shifted and blended  */
 .tiktok-logo:last-child {
 	left: 10px;
 	top: 10px;
-	background: #ee1d52;
+	background: #fe2d52;
 	z-index: 100;
 	mix-blend-mode: lighten;
 }
 
 .tiktok-logo:last-child::before {
-	border: 45px solid #ee1d52;
+	border: 45px solid #fe2d52;
 	border-top: 45px solid transparent;
 }
 .tiktok-logo:last-child::after {
-	border: 45px solid #ee1d52;
+	border: 45px solid #fe2d52;
 	border-right: 45px solid transparent;
 	border-top: 45px solid transparent;
 	border-left: 45px solid transparent;
